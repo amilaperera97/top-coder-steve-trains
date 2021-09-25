@@ -52,3 +52,11 @@ eureka:
       management:
         context-path: /api/management
     health-check-url-path: /api/management/health
+
+#postgres:
+#  datasource:
+#    driver-class-name: org.postgresql.Driver
+#    jdbcUrl: jdbc:postgresql://${DB_HOST:127.0.0.1}:${DB_PORT:5432}/${DB_NAME:st-dev}?currentSchema=${DB_SCHEMA:train-info}
+#    jdbc-read-url: jdbc:postgresql://${POSTGRES_DB_R_HOST:127.0.0.1}:${DB_PORT:5555}/${DB_NAME:crm-dev}?currentSchema=${DB_SCHEMA:oneflow-payment-plan}
+#    username: ${DB_USER:postgres}
+#    password: ${DB_PASSWORD:postgres}
