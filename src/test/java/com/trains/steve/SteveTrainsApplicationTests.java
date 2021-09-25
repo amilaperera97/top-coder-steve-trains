@@ -1,4 +1,4 @@
-package com.trains.steve.trains;
+package com.trains.steve;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

@@ -1,4 +1,4 @@
-package com.trains.steve.trains;
+package com.trains.steve;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
